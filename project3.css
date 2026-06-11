@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+}
+body{
+    background-color:rgb(224, 253, 253) ;
+     display: flex;
+    justify-content: center;  /* horizontal center */
+    align-items: center;      /* vertical center */
+    height: 100vh;  
+}
+.inside{
+    background-color:white;
+    height: 75vh;
+    width: 70vh;
+    border-radius: 30px;
+   box-shadow: 0 30px 30px rgba(0, 0, 0, 0.1);
+}
+.heading{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(252, 149, 166);
+    font-size: 20px;
+    font-weight: bold;
+}
+.para{
+    background-color:rgb(178, 251, 227) ;
+    height: 70px;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.input{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+   
+}
+#guess{
+   
+    width: 300px;
+}
+#btn{
+width: 100px;
+}
+.attempts{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.high{
+    font-size: 20px;
+}
+.play{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.try{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+.display{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-size: 25px;
+    height: 100px;
+    background-color: aqua;
+    color: white;
+    
+   
+}
+
+.ans{
+    display: none;
+}
+
+
