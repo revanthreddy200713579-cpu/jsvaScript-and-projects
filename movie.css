@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url("mov.jpg");
+    
+   
+}
+.main{
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    background-color: pink;
+    height: 600px;
+    width: 400px;
+    
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.2); /* transparent white */
+    backdrop-filter: blur(10px);           /* blur background */
+    -webkit-backdrop-filter: blur(10px);
+
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,255,255,0.3);
+
+}
+
+
+
+.head{
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.para{
+    color: white;
+    margin-top: 10px;
+}
+
+.inp{
+    margin-top: 30px;
+    height: 50px;
+    margin-left: 10px;
+}
+.inside{
+    height: 30px;
+    width: 260px;
+    border-radius: 10px;
+}
+.bt{
+    height: 38px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+.image{
+    margin-top: 3px;
+    display: flex;
+    gap: 100px;
+}
+.in{
+    
+    height: 200px;
+    width: 120px;
+      border: none;
+}
+.h{
+   margin-bottom: 35px;
+   
+   
+}
+.plot{
+    margin-top: 15px;
+    height: 90px;
+}
+.i{
+    width: 180px;
+    height: 220px;
+    object-fit: cover;
+    border: none;
+    margin-left: 4px;
+}
+.cast{
+    margin-top: 10px;
+}
+.a{
+    background: linear-gradient(to right, red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 28px;
+}
