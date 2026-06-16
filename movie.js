@@ -25,10 +25,4 @@ bt.addEventListener("click",async(e)=>
 }catch (error) {
         console.log("Error:", error);
         alert("Something went wrong: " + error.message);
-   
-
-
-}
-
-   
-})
+}})
